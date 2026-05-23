@@ -419,12 +419,12 @@
     ]
   },
   "entrypoints/admin.scss": {
-    "file": "assets/admin-1t-j1DCL.css",
+    "file": "assets/admin-DP4MlSSb.css",
     "src": "entrypoints/admin.scss",
     "isEntry": true
   },
   "entrypoints/editor.js": {
-    "file": "assets/editor-D42s8k3z.js",
+    "file": "assets/editor-C57l2RYu.js",
     "name": "entrypoints/editor.js",
     "src": "entrypoints/editor.js",
     "isEntry": true,
@@ -501,7 +501,7 @@
       "editor/assets/remixicons/tablet-line.svg"
     ],
     "css": [
-      "assets/editor-B2lb9GZw.css"
+      "assets/editor-DiZTIyNw.css"
     ]
   },
   "entrypoints/live-preview-client.js": {

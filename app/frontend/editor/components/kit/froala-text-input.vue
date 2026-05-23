@@ -177,6 +177,70 @@ export default {
 }
 </script>
 
+<!-- Unscoped styles for Froala's content editing area -->
+<style>
+.froala-modal-body .fr-element {
+  font-family: ui-sans-serif, system-ui, -apple-system, sans-serif;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #1f2937;
+  padding: 24px 32px;
+}
+.froala-modal-body .fr-element h1 {
+  font-size: 2.25rem;
+  font-weight: 800;
+  margin: 1.5rem 0 0.75rem;
+  line-height: 1.2;
+}
+.froala-modal-body .fr-element h2 {
+  font-size: 1.875rem;
+  font-weight: 700;
+  margin: 1.25rem 0 0.625rem;
+  line-height: 1.3;
+}
+.froala-modal-body .fr-element h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 1rem 0 0.5rem;
+  line-height: 1.4;
+}
+.froala-modal-body .fr-element h4 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0.75rem 0 0.5rem;
+}
+.froala-modal-body .fr-element p {
+  margin: 0.75rem 0;
+}
+.froala-modal-body .fr-element img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.froala-modal-body .fr-element blockquote {
+  border-left: 4px solid #e5e7eb;
+  padding-left: 1rem;
+  color: #6b7280;
+  font-style: italic;
+  margin: 1rem 0;
+}
+.froala-modal-body .fr-element ul,
+.froala-modal-body .fr-element ol {
+  padding-left: 1.5rem;
+  margin: 0.75rem 0;
+}
+.froala-modal-body .fr-element table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+.froala-modal-body .fr-element table td,
+.froala-modal-body .fr-element table th {
+  border: 1px solid #e5e7eb;
+  padding: 8px 12px;
+}
+</style>
+
 <style scoped>
 .froala-open-btn {
   display: flex;
