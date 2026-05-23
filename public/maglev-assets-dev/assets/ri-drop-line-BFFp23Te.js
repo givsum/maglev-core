@@ -1,0 +1,1 @@
+var a=function(){var t=this,e=t.$createElement,r=t._self._c||e;return r("svg",t._g({attrs:{xmlns:"http://www.w3.org/2000/svg",width:"24",height:"24"}},t.$listeners),[r("path",{attrs:{fill:"none",d:"M0 0h24v24H0z"}}),r("path",{attrs:{d:"M12 3.1 7.05 8.05a7 7 0 1 0 9.9 0zm0-2.828 6.364 6.364a9 9 0 1 1-12.728 0z"}})])};const n={render:a};export{n as default};

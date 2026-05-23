@@ -1,0 +1,534 @@
+{
+  "_index-Cbn8zT-i.js": {
+    "file": "assets/index-Cbn8zT-i.js",
+    "name": "index"
+  },
+  "_index-DcNlVx-A.js": {
+    "file": "assets/index-DcNlVx-A.js",
+    "name": "index"
+  },
+  "editor/assets/remixicons/add-box-line.svg": {
+    "file": "assets/add-box-line-telTNiLV.js",
+    "name": "add-box-line",
+    "src": "editor/assets/remixicons/add-box-line.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/arrow-down-s-line.svg": {
+    "file": "assets/arrow-down-s-line-Kw2yHWZV.js",
+    "name": "arrow-down-s-line",
+    "src": "editor/assets/remixicons/arrow-down-s-line.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/arrow-drop-left.svg": {
+    "file": "assets/arrow-drop-left-Y2n5toeZ.js",
+    "name": "arrow-drop-left",
+    "src": "editor/assets/remixicons/arrow-drop-left.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/arrow-drop-right.svg": {
+    "file": "assets/arrow-drop-right-CI3vsp_x.js",
+    "name": "arrow-drop-right",
+    "src": "editor/assets/remixicons/arrow-drop-right.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/arrow-up-s-line.svg": {
+    "file": "assets/arrow-up-s-line-CsPRcIrt.js",
+    "name": "arrow-up-s-line",
+    "src": "editor/assets/remixicons/arrow-up-s-line.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/camera-line.svg": {
+    "file": "assets/camera-line-DgGgP1vY.js",
+    "name": "camera-line",
+    "src": "editor/assets/remixicons/camera-line.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/clipboard-line.svg": {
+    "file": "assets/clipboard-line-OEYUz3sY.js",
+    "name": "clipboard-line",
+    "src": "editor/assets/remixicons/clipboard-line.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/close-line.svg": {
+    "file": "assets/close-line-BKmNo2zg.js",
+    "name": "close-line",
+    "src": "editor/assets/remixicons/close-line.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/computer-line.svg": {
+    "file": "assets/computer-line-Dq0U04v5.js",
+    "name": "computer-line",
+    "src": "editor/assets/remixicons/computer-line.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/delete-bin-line.svg": {
+    "file": "assets/delete-bin-line-BY1mZkaS.js",
+    "name": "delete-bin-line",
+    "src": "editor/assets/remixicons/delete-bin-line.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/file-line.svg": {
+    "file": "assets/file-line-BPRwBHUn.js",
+    "name": "file-line",
+    "src": "editor/assets/remixicons/file-line.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/format-blockquote.svg": {
+    "file": "assets/format-blockquote-B7GsLXcG.js",
+    "name": "format-blockquote",
+    "src": "editor/assets/remixicons/format-blockquote.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/format-bold.svg": {
+    "file": "assets/format-bold-D-wy4oG8.js",
+    "name": "format-bold",
+    "src": "editor/assets/remixicons/format-bold.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/format-code.svg": {
+    "file": "assets/format-code-DECDhnb1.js",
+    "name": "format-code",
+    "src": "editor/assets/remixicons/format-code.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/format-heading-2.svg": {
+    "file": "assets/format-heading-2-BKBRHt6w.js",
+    "name": "format-heading-2",
+    "src": "editor/assets/remixicons/format-heading-2.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/format-heading-3.svg": {
+    "file": "assets/format-heading-3-B4bJLl7Z.js",
+    "name": "format-heading-3",
+    "src": "editor/assets/remixicons/format-heading-3.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/format-heading-4.svg": {
+    "file": "assets/format-heading-4-BgWdgiGO.js",
+    "name": "format-heading-4",
+    "src": "editor/assets/remixicons/format-heading-4.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/format-italic.svg": {
+    "file": "assets/format-italic-PdJj7F9t.js",
+    "name": "format-italic",
+    "src": "editor/assets/remixicons/format-italic.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/format-link-unlink.svg": {
+    "file": "assets/format-link-unlink-BY0bWZeT.js",
+    "name": "format-link-unlink",
+    "src": "editor/assets/remixicons/format-link-unlink.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/format-link.svg": {
+    "file": "assets/format-link-BDpwkNrF.js",
+    "name": "format-link",
+    "src": "editor/assets/remixicons/format-link.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/format-list-ordered.svg": {
+    "file": "assets/format-list-ordered-DdM8dBLK.js",
+    "name": "format-list-ordered",
+    "src": "editor/assets/remixicons/format-list-ordered.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/format-list-unordered.svg": {
+    "file": "assets/format-list-unordered-CFB0cW_S.js",
+    "name": "format-list-unordered",
+    "src": "editor/assets/remixicons/format-list-unordered.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/format-paragraph.svg": {
+    "file": "assets/format-paragraph-BqxVdQEv.js",
+    "name": "format-paragraph",
+    "src": "editor/assets/remixicons/format-paragraph.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/format-strikethrough.svg": {
+    "file": "assets/format-strikethrough-BC7ohXyi.js",
+    "name": "format-strikethrough",
+    "src": "editor/assets/remixicons/format-strikethrough.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/format-superscript.svg": {
+    "file": "assets/format-superscript-F12UKx-5.js",
+    "name": "format-superscript",
+    "src": "editor/assets/remixicons/format-superscript.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/format-underline.svg": {
+    "file": "assets/format-underline-CWDxEHJG.js",
+    "name": "format-underline",
+    "src": "editor/assets/remixicons/format-underline.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/home-4-line.svg": {
+    "file": "assets/home-4-line-DbpzpuV9.js",
+    "name": "home-4-line",
+    "src": "editor/assets/remixicons/home-4-line.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/image-line.svg": {
+    "file": "assets/image-line-Dmp-bDXw.js",
+    "name": "image-line",
+    "src": "editor/assets/remixicons/image-line.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/logout-box-r-line.svg": {
+    "file": "assets/logout-box-r-line-C0eFqn_A.js",
+    "name": "logout-box-r-line",
+    "src": "editor/assets/remixicons/logout-box-r-line.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/ri-add-line.svg": {
+    "file": "assets/ri-add-line-B9lkjZHo.js",
+    "name": "ri-add-line",
+    "src": "editor/assets/remixicons/ri-add-line.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/ri-alert-line.svg": {
+    "file": "assets/ri-alert-line-CKohRcZ2.js",
+    "name": "ri-alert-line",
+    "src": "editor/assets/remixicons/ri-alert-line.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/ri-book-line.svg": {
+    "file": "assets/ri-book-line-DGEuJcvp.js",
+    "name": "ri-book-line",
+    "src": "editor/assets/remixicons/ri-book-line.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/ri-bug-line.svg": {
+    "file": "assets/ri-bug-line-_IyaHs5N.js",
+    "name": "ri-bug-line",
+    "src": "editor/assets/remixicons/ri-bug-line.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/ri-check-line.svg": {
+    "file": "assets/ri-check-line-C44Qs-YB.js",
+    "name": "ri-check-line",
+    "src": "editor/assets/remixicons/ri-check-line.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/ri-close-circle-line.svg": {
+    "file": "assets/ri-close-circle-line-BOuEcDDS.js",
+    "name": "ri-close-circle-line",
+    "src": "editor/assets/remixicons/ri-close-circle-line.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/ri-close-line.svg": {
+    "file": "assets/ri-close-line-BKmNo2zg.js",
+    "name": "ri-close-line",
+    "src": "editor/assets/remixicons/ri-close-line.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/ri-delete-column.svg": {
+    "file": "assets/ri-delete-column-B0pTHl7U.js",
+    "name": "ri-delete-column",
+    "src": "editor/assets/remixicons/ri-delete-column.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/ri-delete-row.svg": {
+    "file": "assets/ri-delete-row-C8IDLnCL.js",
+    "name": "ri-delete-row",
+    "src": "editor/assets/remixicons/ri-delete-row.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/ri-draggable.svg": {
+    "file": "assets/ri-draggable-DJpcCqjs.js",
+    "name": "ri-draggable",
+    "src": "editor/assets/remixicons/ri-draggable.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/ri-drop-line.svg": {
+    "file": "assets/ri-drop-line-BFFp23Te.js",
+    "name": "ri-drop-line",
+    "src": "editor/assets/remixicons/ri-drop-line.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/ri-external-link-line.svg": {
+    "file": "assets/ri-external-link-line-Cxu2m47-.js",
+    "name": "ri-external-link-line",
+    "src": "editor/assets/remixicons/ri-external-link-line.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/ri-eye-line.svg": {
+    "file": "assets/ri-eye-line-DKhUHvhk.js",
+    "name": "ri-eye-line",
+    "src": "editor/assets/remixicons/ri-eye-line.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/ri-eye-off-line.svg": {
+    "file": "assets/ri-eye-off-line-wheoXpTc.js",
+    "name": "ri-eye-off-line",
+    "src": "editor/assets/remixicons/ri-eye-off-line.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/ri-file-copy-line.svg": {
+    "file": "assets/ri-file-copy-line-BlynWS3x.js",
+    "name": "ri-file-copy-line",
+    "src": "editor/assets/remixicons/ri-file-copy-line.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/ri-file-line.svg": {
+    "file": "assets/ri-file-line-BPRwBHUn.js",
+    "name": "ri-file-line",
+    "src": "editor/assets/remixicons/ri-file-line.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/ri-folders-line.svg": {
+    "file": "assets/ri-folders-line-D1wE6TbM.js",
+    "name": "ri-folders-line",
+    "src": "editor/assets/remixicons/ri-folders-line.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/ri-global-line.svg": {
+    "file": "assets/ri-global-line-DAJYkful.js",
+    "name": "ri-global-line",
+    "src": "editor/assets/remixicons/ri-global-line.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/ri-insert-column-left.svg": {
+    "file": "assets/ri-insert-column-left-BILyj2a5.js",
+    "name": "ri-insert-column-left",
+    "src": "editor/assets/remixicons/ri-insert-column-left.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/ri-insert-column-right.svg": {
+    "file": "assets/ri-insert-column-right-CeHFgx4y.js",
+    "name": "ri-insert-column-right",
+    "src": "editor/assets/remixicons/ri-insert-column-right.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/ri-insert-row-bottom.svg": {
+    "file": "assets/ri-insert-row-bottom-CkBP5JK1.js",
+    "name": "ri-insert-row-bottom",
+    "src": "editor/assets/remixicons/ri-insert-row-bottom.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/ri-insert-row-top.svg": {
+    "file": "assets/ri-insert-row-top-ujhu0zpg.js",
+    "name": "ri-insert-row-top",
+    "src": "editor/assets/remixicons/ri-insert-row-top.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/ri-loader-4-line.svg": {
+    "file": "assets/ri-loader-4-line-BtUtxakW.js",
+    "name": "ri-loader-4-line",
+    "src": "editor/assets/remixicons/ri-loader-4-line.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/ri-mail-line.svg": {
+    "file": "assets/ri-mail-line-Cq0d4Xy6.js",
+    "name": "ri-mail-line",
+    "src": "editor/assets/remixicons/ri-mail-line.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/ri-more-2-fill.svg": {
+    "file": "assets/ri-more-2-fill-BqCwhbm7.js",
+    "name": "ri-more-2-fill",
+    "src": "editor/assets/remixicons/ri-more-2-fill.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/ri-more-fill.svg": {
+    "file": "assets/ri-more-fill-Bjcqb0A6.js",
+    "name": "ri-more-fill",
+    "src": "editor/assets/remixicons/ri-more-fill.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/ri-palette-line.svg": {
+    "file": "assets/ri-palette-line-DiNjJa-l.js",
+    "name": "ri-palette-line",
+    "src": "editor/assets/remixicons/ri-palette-line.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/ri-pencil-line.svg": {
+    "file": "assets/ri-pencil-line-BmcaoQ8H.js",
+    "name": "ri-pencil-line",
+    "src": "editor/assets/remixicons/ri-pencil-line.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/ri-play-list-add-line.svg": {
+    "file": "assets/ri-play-list-add-line-CSNAigSO.js",
+    "name": "ri-play-list-add-line",
+    "src": "editor/assets/remixicons/ri-play-list-add-line.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/ri-settings-5-line.svg": {
+    "file": "assets/ri-settings-5-line-CmzF_rCD.js",
+    "name": "ri-settings-5-line",
+    "src": "editor/assets/remixicons/ri-settings-5-line.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/ri-shadow-line.svg": {
+    "file": "assets/ri-shadow-line-DRmDz8-q.js",
+    "name": "ri-shadow-line",
+    "src": "editor/assets/remixicons/ri-shadow-line.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/ri-stack-line.svg": {
+    "file": "assets/ri-stack-line-BmieQNDd.js",
+    "name": "ri-stack-line",
+    "src": "editor/assets/remixicons/ri-stack-line.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/ri-table-2.svg": {
+    "file": "assets/ri-table-2-CgOPZ-F-.js",
+    "name": "ri-table-2",
+    "src": "editor/assets/remixicons/ri-table-2.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/ri-table-line.svg": {
+    "file": "assets/ri-table-line-CZTq0QsX.js",
+    "name": "ri-table-line",
+    "src": "editor/assets/remixicons/ri-table-line.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/search-line.svg": {
+    "file": "assets/search-line-OzwXuyms.js",
+    "name": "search-line",
+    "src": "editor/assets/remixicons/search-line.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/settings-4-line.svg": {
+    "file": "assets/settings-4-line-DmkEuN9y.js",
+    "name": "settings-4-line",
+    "src": "editor/assets/remixicons/settings-4-line.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/smartphone-line.svg": {
+    "file": "assets/smartphone-line-CKuY61Fb.js",
+    "name": "smartphone-line",
+    "src": "editor/assets/remixicons/smartphone-line.svg",
+    "isDynamicEntry": true
+  },
+  "editor/assets/remixicons/tablet-line.svg": {
+    "file": "assets/tablet-line-BIjxME-P.js",
+    "name": "tablet-line",
+    "src": "editor/assets/remixicons/tablet-line.svg",
+    "isDynamicEntry": true
+  },
+  "entrypoints/admin.js": {
+    "file": "assets/admin-CrDZBWuK.js",
+    "name": "entrypoints/admin.js",
+    "src": "entrypoints/admin.js",
+    "isEntry": true,
+    "imports": [
+      "_index-DcNlVx-A.js"
+    ]
+  },
+  "entrypoints/admin.scss": {
+    "file": "assets/admin-1t-j1DCL.css",
+    "src": "entrypoints/admin.scss",
+    "isEntry": true
+  },
+  "entrypoints/editor.js": {
+    "file": "assets/editor-D42s8k3z.js",
+    "name": "entrypoints/editor.js",
+    "src": "entrypoints/editor.js",
+    "isEntry": true,
+    "imports": [
+      "_index-DcNlVx-A.js"
+    ],
+    "dynamicImports": [
+      "editor/assets/remixicons/add-box-line.svg",
+      "editor/assets/remixicons/arrow-down-s-line.svg",
+      "editor/assets/remixicons/arrow-drop-left.svg",
+      "editor/assets/remixicons/arrow-drop-right.svg",
+      "editor/assets/remixicons/arrow-up-s-line.svg",
+      "editor/assets/remixicons/camera-line.svg",
+      "editor/assets/remixicons/clipboard-line.svg",
+      "editor/assets/remixicons/close-line.svg",
+      "editor/assets/remixicons/computer-line.svg",
+      "editor/assets/remixicons/delete-bin-line.svg",
+      "editor/assets/remixicons/file-line.svg",
+      "editor/assets/remixicons/format-blockquote.svg",
+      "editor/assets/remixicons/format-bold.svg",
+      "editor/assets/remixicons/format-code.svg",
+      "editor/assets/remixicons/format-heading-2.svg",
+      "editor/assets/remixicons/format-heading-3.svg",
+      "editor/assets/remixicons/format-heading-4.svg",
+      "editor/assets/remixicons/format-italic.svg",
+      "editor/assets/remixicons/format-link-unlink.svg",
+      "editor/assets/remixicons/format-link.svg",
+      "editor/assets/remixicons/format-list-ordered.svg",
+      "editor/assets/remixicons/format-list-unordered.svg",
+      "editor/assets/remixicons/format-paragraph.svg",
+      "editor/assets/remixicons/format-strikethrough.svg",
+      "editor/assets/remixicons/format-superscript.svg",
+      "editor/assets/remixicons/format-underline.svg",
+      "editor/assets/remixicons/home-4-line.svg",
+      "editor/assets/remixicons/image-line.svg",
+      "editor/assets/remixicons/logout-box-r-line.svg",
+      "editor/assets/remixicons/ri-add-line.svg",
+      "editor/assets/remixicons/ri-alert-line.svg",
+      "editor/assets/remixicons/ri-book-line.svg",
+      "editor/assets/remixicons/ri-bug-line.svg",
+      "editor/assets/remixicons/ri-check-line.svg",
+      "editor/assets/remixicons/ri-close-circle-line.svg",
+      "editor/assets/remixicons/ri-close-line.svg",
+      "editor/assets/remixicons/ri-delete-column.svg",
+      "editor/assets/remixicons/ri-delete-row.svg",
+      "editor/assets/remixicons/ri-draggable.svg",
+      "editor/assets/remixicons/ri-drop-line.svg",
+      "editor/assets/remixicons/ri-external-link-line.svg",
+      "editor/assets/remixicons/ri-eye-line.svg",
+      "editor/assets/remixicons/ri-eye-off-line.svg",
+      "editor/assets/remixicons/ri-file-copy-line.svg",
+      "editor/assets/remixicons/ri-file-line.svg",
+      "editor/assets/remixicons/ri-folders-line.svg",
+      "editor/assets/remixicons/ri-global-line.svg",
+      "editor/assets/remixicons/ri-insert-column-left.svg",
+      "editor/assets/remixicons/ri-insert-column-right.svg",
+      "editor/assets/remixicons/ri-insert-row-bottom.svg",
+      "editor/assets/remixicons/ri-insert-row-top.svg",
+      "editor/assets/remixicons/ri-loader-4-line.svg",
+      "editor/assets/remixicons/ri-mail-line.svg",
+      "editor/assets/remixicons/ri-more-2-fill.svg",
+      "editor/assets/remixicons/ri-more-fill.svg",
+      "editor/assets/remixicons/ri-palette-line.svg",
+      "editor/assets/remixicons/ri-pencil-line.svg",
+      "editor/assets/remixicons/ri-play-list-add-line.svg",
+      "editor/assets/remixicons/ri-settings-5-line.svg",
+      "editor/assets/remixicons/ri-shadow-line.svg",
+      "editor/assets/remixicons/ri-stack-line.svg",
+      "editor/assets/remixicons/ri-table-2.svg",
+      "editor/assets/remixicons/ri-table-line.svg",
+      "editor/assets/remixicons/search-line.svg",
+      "editor/assets/remixicons/settings-4-line.svg",
+      "editor/assets/remixicons/smartphone-line.svg",
+      "editor/assets/remixicons/tablet-line.svg"
+    ],
+    "css": [
+      "assets/editor-B2lb9GZw.css"
+    ]
+  },
+  "entrypoints/live-preview-client.js": {
+    "file": "assets/live-preview-client-Dwa86ntR.js",
+    "name": "entrypoints/live-preview-client.js",
+    "src": "entrypoints/live-preview-client.js",
+    "isEntry": true,
+    "imports": [
+      "_index-Cbn8zT-i.js"
+    ]
+  },
+  "entrypoints/live-preview-rails-client.js": {
+    "file": "assets/live-preview-rails-client-BbD1HPBg.js",
+    "name": "entrypoints/live-preview-rails-client.js",
+    "src": "entrypoints/live-preview-rails-client.js",
+    "isEntry": true,
+    "imports": [
+      "_index-Cbn8zT-i.js",
+      "_index-DcNlVx-A.js"
+    ]
+  },
+  "favicon.svg": {
+    "file": "assets/favicon-_NdV5mHP.svg",
+    "src": "favicon.svg"
+  },
+  "logo.svg": {
+    "file": "assets/logo-B_UqU7Xl.svg",
+    "src": "logo.svg"
+  }
+}

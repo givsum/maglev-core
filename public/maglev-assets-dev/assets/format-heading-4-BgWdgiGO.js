@@ -1,0 +1,1 @@
+var h=function(){var t=this,e=t.$createElement,r=t._self._c||e;return r("svg",t._g({attrs:{xmlns:"http://www.w3.org/2000/svg",width:"24",height:"24"}},t.$listeners),[r("path",{attrs:{fill:"none",d:"M0 0h24v24H0z"}}),r("path",{attrs:{d:"M13 20h-2v-7H4v7H2V4h2v7h7V4h2zm9-12v8h1.5v2H22v2h-2v-2h-5.5v-1.34l5-8.66zm-2 3.133L17.19 16H20z"}})])};const v={render:h};export{v as default};
