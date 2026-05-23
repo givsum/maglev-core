@@ -5,7 +5,7 @@
     "publicOutputDir": "maglev-assets"
   },
   "development": {
-    "autoBuild": true,
+    "autoBuild": false,
     "publicOutputDir": "maglev-assets-dev",
     "port": 3136
   },
