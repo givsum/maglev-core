@@ -106,9 +106,13 @@ export default {
 
       textarea.value = this.value || ''
 
+      const modalBody = this.$el.querySelector('.froala-modal-body')
+
       this.froalaInstance = new window.FroalaEditor(textarea, {
         key: window.maglev_froala_key || '',
         attribution: false,
+        zIndex: 100001,
+        scrollableContainer: modalBody,
         heightMin: 400,
         heightMax: 600,
         imageUploadURL: '/maglev/froala/images',
@@ -179,8 +183,19 @@ export default {
 }
 </script>
 
-<!-- Unscoped styles for Froala's content editing area -->
+<!-- Unscoped styles for Froala popups and content editing area -->
 <style>
+/* Froala popups/toolbars must render above the modal overlay (z-index: 99999) */
+.fr-popup {
+  z-index: 100002 !important;
+}
+.fr-image-resizer {
+  z-index: 100002 !important;
+}
+.fr-toolbar .fr-more-toolbar {
+  z-index: 100002 !important;
+}
+
 .froala-modal-body .fr-element {
   font-family: ui-sans-serif, system-ui, -apple-system, sans-serif;
   font-size: 16px;
