@@ -2,7 +2,8 @@
   "all": {
     "sourceCodeDir": "app/frontend",
     "watchAdditionalPaths": [],
-    "publicOutputDir": "maglev-assets"
+    "publicOutputDir": "maglev-assets",
+    "skipCompatibilityCheck": true
   },
   "development": {
     "autoBuild": false,
