@@ -106,8 +106,6 @@ export default {
 
       textarea.value = this.value || ''
 
-      const self = this
-
       this.froalaInstance = new window.FroalaEditor(textarea, {
         key: window.maglev_froala_key || '',
         attribution: false,
@@ -155,46 +153,6 @@ export default {
             buttons: ['undo', 'redo', 'fullscreen', 'html'],
             buttonsVisible: 4
           }
-        },
-        events: {
-          'initialized': function() {
-            console.log('[Froala] initialized successfully')
-            console.log('[Froala] plugins:', Object.keys(window.FroalaEditor.PLUGINS || {}))
-            var popups = document.querySelectorAll('.fr-popup')
-            console.log('[Froala] popup elements after init:', popups.length)
-            popups.forEach(function(p, i) {
-              console.log('[Froala] popup ' + i + ':', p.className, 'display:', window.getComputedStyle(p).display)
-            })
-
-            // Add direct DOM click listener on the editing area
-            var editArea = self.$el.querySelector('.fr-element')
-            if (editArea) {
-              editArea.addEventListener('click', function(e) {
-                console.log('[Froala DOM] click target:', e.target.tagName, e.target.className)
-                if (e.target.tagName === 'IMG') {
-                  console.log('[Froala DOM] IMG clicked directly')
-                  setTimeout(function() {
-                    var popups = document.querySelectorAll('.fr-popup')
-                    console.log('[Froala DOM] popups after img click:', popups.length)
-                    popups.forEach(function(p, i) {
-                      var cs = window.getComputedStyle(p)
-                      console.log('[Froala DOM] popup ' + i + ':', {
-                        classes: p.className,
-                        display: cs.display,
-                        visibility: cs.visibility,
-                        zIndex: cs.zIndex,
-                        left: p.style.left,
-                        top: p.style.top,
-                        innerHTML: p.innerHTML.substring(0, 200)
-                      })
-                    })
-                  }, 300)
-                }
-              })
-            } else {
-              console.log('[Froala] WARNING: .fr-element not found after init')
-            }
-          },
         },
       })
     },
