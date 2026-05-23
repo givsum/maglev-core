@@ -106,13 +106,10 @@ export default {
 
       textarea.value = this.value || ''
 
-      const modalBody = this.$el.querySelector('.froala-modal-body')
-
       this.froalaInstance = new window.FroalaEditor(textarea, {
         key: window.maglev_froala_key || '',
         attribution: false,
         zIndex: 100001,
-        scrollableContainer: modalBody,
         heightMin: 400,
         heightMax: 600,
         imageUploadURL: '/maglev/froala/images',
@@ -157,6 +154,36 @@ export default {
             buttonsVisible: 4
           }
         },
+        events: {
+          'image.loaded': function($img) {
+            console.log('[Froala] image.loaded', $img)
+          },
+          'image.inserted': function($img) {
+            console.log('[Froala] image.inserted', $img)
+          },
+          'click': function(clickEvent) {
+            if (clickEvent.target && clickEvent.target.tagName === 'IMG') {
+              console.log('[Froala] IMG clicked', clickEvent.target)
+              // Log all .fr-popup elements and their styles
+              var popups = document.querySelectorAll('.fr-popup')
+              console.log('[Froala] Found .fr-popup elements:', popups.length)
+              popups.forEach(function(p, i) {
+                console.log('[Froala] popup ' + i, {
+                  display: p.style.display,
+                  visibility: p.style.visibility,
+                  zIndex: p.style.zIndex,
+                  className: p.className,
+                  offsetParent: p.offsetParent,
+                  computedDisplay: window.getComputedStyle(p).display,
+                  computedVisibility: window.getComputedStyle(p).visibility,
+                  computedZIndex: window.getComputedStyle(p).zIndex,
+                  left: p.style.left,
+                  top: p.style.top,
+                })
+              })
+            }
+          },
+        },
       })
     },
 
@@ -188,12 +215,25 @@ export default {
 /* Froala popups/toolbars must render above the modal overlay (z-index: 99999) */
 .fr-popup {
   z-index: 100002 !important;
+  display: none;
+}
+.fr-popup.fr-active {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
 }
 .fr-image-resizer {
   z-index: 100002 !important;
 }
 .fr-toolbar .fr-more-toolbar {
   z-index: 100002 !important;
+}
+/* Ensure Froala box allows popup overflow */
+.froala-modal-body .fr-box {
+  overflow: visible !important;
+}
+.froala-modal-body .fr-wrapper {
+  overflow: visible !important;
 }
 
 .froala-modal-body .fr-element {
@@ -303,7 +343,7 @@ export default {
   width: 900px;
   max-width: 95vw;
   max-height: 90vh;
-  overflow: hidden;
+  overflow: visible;
   display: flex;
   flex-direction: column;
 }
