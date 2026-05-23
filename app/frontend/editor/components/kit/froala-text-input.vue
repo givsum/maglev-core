@@ -116,6 +116,8 @@ export default {
         imageUploadParam: 'file',
         imageMaxSize: 10 * 1024 * 1024,
         imageAllowedTypes: ['jpeg', 'jpg', 'png', 'gif', 'webp', 'svg'],
+        imageDefaultAlign: 'center',
+        imageDefaultDisplay: 'block',
         imageEditButtons: [
           'imageReplace', 'imageAlign', 'imageCaption', 'imageRemove',
           'imageLink', 'imageDisplay', 'imageStyle', 'imageAlt', 'imageSize'
