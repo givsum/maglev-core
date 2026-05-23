@@ -216,6 +216,9 @@ export default {
   max-width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .froala-modal-body .fr-element blockquote {
   border-left: 4px solid #e5e7eb;
