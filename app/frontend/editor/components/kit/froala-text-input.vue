@@ -1,17 +1,8 @@
 <template>
   <div>
-    <div class="flex items-center justify-between mb-2">
-      <div class="block font-semibold text-gray-800">
-        {{ label }}
-      </div>
+    <div class="block font-semibold text-gray-800 mb-2">
+      {{ label }}
     </div>
-
-    <!-- Content preview (read-only, shows what's in the field) -->
-    <div
-      class="froala-preview"
-      @click="openEditor"
-      v-html="value || '<p class=&quot;text-gray-400&quot;>Click to edit content...</p>'"
-    ></div>
 
     <button
       type="button"
@@ -187,34 +178,6 @@ export default {
 </script>
 
 <style scoped>
-.froala-preview {
-  border: 1px solid #e5e7eb;
-  border-radius: 6px;
-  padding: 10px 12px;
-  min-height: 60px;
-  max-height: 120px;
-  overflow-y: auto;
-  font-size: 13px;
-  line-height: 1.5;
-  color: #374151;
-  cursor: pointer;
-  transition: border-color 0.15s;
-  background: #fafafa;
-}
-.froala-preview:hover {
-  border-color: #ee6840;
-  background: #fff;
-}
-.froala-preview >>> h1,
-.froala-preview >>> h2,
-.froala-preview >>> h3 {
-  font-size: 14px;
-  font-weight: 700;
-  margin: 4px 0;
-}
-.froala-preview >>> p { margin: 2px 0; }
-.froala-preview >>> img { max-width: 100%; height: auto; max-height: 60px; }
-
 .froala-open-btn {
   display: flex;
   align-items: center;
