@@ -16,6 +16,7 @@ import SelectInput from './select-input.vue'
 import TextAreaInput from './textarea-input.vue'
 import TextInput from './text-input.vue'
 import RichTextInput from './rich-text-input.vue'
+import FroalaTextInput from './froala-text-input.vue'
 import CheckboxInput from './checkbox-input.vue'
 import SearchInput from './search-input.vue'
 import Pagination from './pagination/index.vue'
@@ -43,6 +44,7 @@ Vue.component('uikit-select-input', SelectInput)
 Vue.component('uikit-textarea-input', TextAreaInput)
 Vue.component('uikit-text-input', TextInput)
 Vue.component('uikit-rich-text-input', RichTextInput)
+Vue.component('uikit-froala-text-input', FroalaTextInput)
 Vue.component('uikit-checkbox-input', CheckboxInput)
 Vue.component('uikit-search-input', SearchInput)
 Vue.component('uikit-pagination', Pagination)

@@ -23,16 +23,25 @@
         setting.type == 'text' && !options.html && parseInt(options.nbRows) > 1
       "
     />
+    <uikit-froala-text-input
+      :label="label"
+      :name="setting.id"
+      :isFocused="isFocused"
+      :rows="options.nbRows"
+      @blur="$emit('blur')"
+      v-model="inputValue"
+      v-if="setting.type == 'text' && options.html && options.editor == 'froala'"
+    />
     <uikit-rich-text-input
       :label="label"
       :name="setting.id"
       :isFocused="isFocused"
       :lineBreak="options.lineBreak"
       :rows="options.nbRows"
-      :extraExtensions="options.extraExtensions" 
+      :extraExtensions="options.extraExtensions"
       @blur="$emit('blur')"
       v-model="inputValue"
-      v-if="setting.type == 'text' && options.html"
+      v-if="setting.type == 'text' && options.html && options.editor != 'froala'"
     />
     <uikit-image-input
       :label="label"
