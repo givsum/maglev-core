@@ -424,7 +424,7 @@
     "isEntry": true
   },
   "entrypoints/editor.js": {
-    "file": "assets/editor-Ba4DrROj.js",
+    "file": "assets/editor-D-O7ocmO.js",
     "name": "entrypoints/editor.js",
     "src": "entrypoints/editor.js",
     "isEntry": true,
@@ -501,7 +501,7 @@
       "editor/assets/remixicons/tablet-line.svg"
     ],
     "css": [
-      "assets/editor-CuAznXqk.css"
+      "assets/editor-q_k1UBgd.css"
     ]
   },
   "entrypoints/live-preview-client.js": {
