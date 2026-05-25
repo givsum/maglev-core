@@ -18,16 +18,22 @@ export default (services) => ({
       blocks: sectionBlocks,
     })
     if (!pageContent?.sections) return []
-    return pageContent.sections.map((sectionContent) => {
-      const sectionDefinition = getSectiondefinition(sectionContent)
-      return {
-        id: sectionContent.id,
-        type: sectionContent['type'],
-        name: sectionDefinition.name,
-        label: services.section.getSectionLabel(sectionContent, sectionDefinition),
-        viewportFixedPosition: !!sectionDefinition.viewportFixedPosition,
-      }
-    })
+    return pageContent.sections
+      .map((sectionContent) => {
+        const sectionDefinition = getSectiondefinition(sectionContent)
+        if (!sectionDefinition) {
+          console.warn(`[Maglev] Section type "${sectionContent['type']}" not found in theme definitions`)
+          return null
+        }
+        return {
+          id: sectionContent.id,
+          type: sectionContent['type'],
+          name: sectionDefinition.name,
+          label: services.section.getSectionLabel(sectionContent, sectionDefinition),
+          viewportFixedPosition: !!sectionDefinition.viewportFixedPosition,
+        }
+      })
+      .filter(Boolean)
   },
   stickySectionList: (_, { sectionList }) => {
     return sectionList.filter((section) => section.viewportFixedPosition)
@@ -46,7 +52,7 @@ export default (services) => ({
     })
 
     const siteSections = pageContent.sections.filter(
-      (sectionContent) => getSectiondefinition(sectionContent).siteScoped,
+      (sectionContent) => getSectiondefinition(sectionContent)?.siteScoped,
     )
     const hasModifiedSiteScopedSections = siteSections.some(
       (sectionContent) => touchedSections.indexOf(sectionContent.id) !== -1,
