@@ -19,6 +19,7 @@ export default (services) => ({
     })
     if (!pageContent?.sections) return []
     return pageContent.sections
+      .filter((s) => s && s['type'])
       .map((sectionContent) => {
         const sectionDefinition = getSectiondefinition(sectionContent)
         if (!sectionDefinition) {
@@ -75,6 +76,7 @@ export default (services) => ({
   sectionDefinition:
     ({ theme }) =>
     (sectionContent) => {
+      if (!sectionContent || !sectionContent['type']) return undefined
       return theme.sections.find(
         (definition) => definition['id'] === sectionContent['type']
       )
